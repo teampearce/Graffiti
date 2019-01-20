@@ -1,2 +1,3 @@
 # Graffiti
-virtual Graffiti tool
+Virtual Graffiti tool
+set on GIT
