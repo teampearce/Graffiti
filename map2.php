@@ -23,7 +23,7 @@ body {
 
 
 
-<p id="demo">test</p>
+<p id="demo"></p>
  
 
   <script>
@@ -33,7 +33,7 @@ var x = document.getElementById("demo");
         navigator.geolocation.getCurrentPosition(showPosition);
 	
     } else {
-        x.innerHTML = "resart and give permision for location";
+        x.innerHTML = "Geolocation is not supported by this browser.";
     }
   </script>
   
@@ -117,7 +117,7 @@ mysqli_close($connection);
 	
 	
 	L.circle([51.508, -0.11], {
-		color: 'red', 
+		color: 'red',
 		fillColor: '#f03',
 		fillOpacity: 0.5,
 		radius: 500
@@ -132,7 +132,6 @@ mysqli_close($connection);
 
 </script>
 
-mapbox API token: pk.eyJ1Ijoicm9icGVhcmNlIiwiYSI6ImNqcHp0MHpnbzBlNmgzeHFqNmFpOXMzZzcifQ.00nZeuyhs9ORiWbrvMCdbQ
-mapbox public token: pk.eyJ1Ijoicm9icGVhcmNlIiwiYSI6ImNqcHpzd2puYjBlYmU0M3RkeXQ4a2R2NXMifQ.Eb1drxZlhU3EhSb0OcoEfQ
+
 </body>
 </html>
