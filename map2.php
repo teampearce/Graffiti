@@ -117,7 +117,7 @@ mysqli_close($connection);
 	
 	
 	L.circle([51.508, -0.11], {
-		color: 'red',
+		color: 'red', 
 		fillColor: '#f03',
 		fillOpacity: 0.5,
 		radius: 500
